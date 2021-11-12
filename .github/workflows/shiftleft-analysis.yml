@@ -37,6 +37,6 @@ jobs:
         # type: python
 
     - name: Upload report
-      uses: github/DVWA/codeql-action@tgarg123
+      uses: github/tgarg123/DVWA/codeql-action@tgarg123
       with:
         sarif_file: reports1
