@@ -37,6 +37,6 @@ jobs:
         # type: python
 
     - name: Upload report
-      uses: github/tgarg123/DVWA/upload-sarif@v1
+      uses: github/tgarg123/DVWA/
       with:
         sarif_file: reports1
